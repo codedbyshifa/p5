@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkseagreen;
+}
+nav{
+    display: flex;
+    background-color: cyan;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    gap: 20px;
+    position: sticky;
+}
+nav a{
+       color: white;
+       text-decoration: none;
+       font-weight: bolder;
+}
+nav a:hover{
+    color: yellow;
+}
+#hero{
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    font-family: cursive;
+    font-weight: bolder;
+}
+#hero img{
+    height:300px;
+    width:300px;
+    border-radius:80%;
+}
+#edu{
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+}
+#edu img{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    padding: 10px;
+}
+#school{
+    background-color: aqua;
+}
+#PU{
+    background-color: burlywood;
+}
+#college{
+    background-color:darkturquoise;
+}
